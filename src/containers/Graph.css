@@ -1,0 +1,29 @@
+.Graph {
+	border: 1px solid white;
+	text-align: center;
+	background-color: white;
+	padding: 20px;
+	border-radius: 4px;
+}
+
+.Graph h4 {
+	text-align: left;
+	margin: 0;
+	color: 	#707070;
+}
+
+.Graph hr {
+	margin: 0 -20px;
+	border-top: 1px solid #ccc;
+}
+
+.Graph-plot {
+	margin: 120px 0 100px -25px;
+}
+
+.months {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	color: #ccc;
+}

@@ -1,0 +1,50 @@
+.Sidebar {
+	border: 1px solid white;
+	text-align: center;
+	background-color: white;
+	padding: 20px;
+	flex: 1 0 calc(15%);
+	margin-right: 20px;
+	border-radius: 4px;
+}
+
+.Sidebar img {
+	width: 60%;
+}
+
+.Sidebar hr {
+	margin: 15px -20px;
+	border-top: 1px solid #ccc;
+}
+
+.Title {
+	font-size: 20px;
+}
+
+.Subtitle {
+	color: #ccc;
+}
+
+.Tags {
+	display: flex;
+	flex-flow: row wrap;
+	margin-bottom: -10px;
+}
+
+.Tags span {
+	border: 1px solid black;
+	padding: 0 15px;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0 10px 10px 0;
+}
+
+.Overview, .Sales {
+	text-align: left;
+	margin-bottom: 15px;
+	color: #707070;
+}
+
+.Overview:hover, .Sales:hover {
+    color: blue;
+}
